@@ -1,0 +1,86 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  text-align: center;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #4caf50, #81c784);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.start-btn {
+  padding: 10px 20px;
+  background-color: white;
+  color: #4caf50;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.feature-card {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  background-color: #4caf50;
+  color: white;
+}
+
+.footer a {
+  color: white;
+  margin: 0 5px;
+  text-decoration: none;
+}
